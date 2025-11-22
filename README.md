@@ -19,7 +19,10 @@ Platform: Command Line Interface (CLI)
 4. Reliability: Data persistence ensures that no recorded expenses or the budget are lost when the program is properly exited, making the application reliable for long-duration trips. 
 
 # Steps to Install & Run the Project 
-1. Save File: Save the entire code block as travel_expense_planner.py .
-2. Run: Open your command line or terminal, navigate to the directory where you saved the file, and execute:
+1. Save File: Save the entire code block as
+   
+           travel_expense_planner.py 
+   
+3. Run: Open your command line or terminal, navigate to the directory where you saved the file, and execute:
    
                    python travel_expense_planner.py  

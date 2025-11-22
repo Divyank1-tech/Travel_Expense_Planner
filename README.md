@@ -1,2 +1,2 @@
 # Travel_Expense_Planner
-Travel Expense Calculator is a Python-based application designed to handle and balance expenses incurred during a trip. It allows users to add, modify, delete, and view expense records.
+The Travel Expense Planner is a single, complete, command-line application written in python designed to track and manage trip finances. It features a menu-driven interface for logging expenses, setting budgets, and generating a detailed summary. Most importantly, it uses local JSON file handling to ensure data is saved automatically upon exit and loaded upon startup, providing state continuity for long-term trip planning.

@@ -8,6 +8,6 @@ While the implementation is in a single file, the code is logically divided into
 3. Reporting & Analytics: Calculates and formats the summary report, including total expense calculation, percentage breakdown, and budget variance tracking.
 
 # Technologies/Tools Used 
-e Language: Python 3.x
-e Data Format: JSON (for data persistence)
-e Platform: Command Line Interface (CLI) 
+ Language: Python 3.x
+ Data Format: JSON (for data persistence)
+ Platform: Command Line Interface (CLI) 

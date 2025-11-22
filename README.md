@@ -25,4 +25,13 @@ Platform: Command Line Interface (CLI)
    
 3. Run: Open your command line or terminal, navigate to the directory where you saved the file, and execute:
    
-                   python travel_expense_planner.py  
+                   python travel_expense_planner.py
+# Instructions for Testing 
+Test the functional requirements, paying special attention to the persistence feature: 
+1. Budget Test: Choose option 3 (Set Trip Budget) and enter 10000.
+2. Expense Test: Choose option 1 (Add New Expense).
+   Select 1. Accommodation and enter 4500.
+   Select 3. Food & Dining andenter 1500. 
+3. Summary Test: Choose option 2 (View Expense Summary). Verify the total is ₹6000.00.
+4. Persistence Test (Crucial): Choose option 5 (Exit Planner). You should see a message confirming the data was saved to travel_expenses.json.
+5. Rerun Test: Run the script again ( python travel_expense_planner .py ). The initial print message should confirm that the data (₹6000.00 expenses,₹10000.00 budget) was loaded successfully.

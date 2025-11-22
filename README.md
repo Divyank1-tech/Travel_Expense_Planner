@@ -5,3 +5,5 @@ The Travel Expense Planner is a single, complete, command-line application writt
 While the implementation is in a single file, the code is logically divided into Three major functional areas to meet typical project requirements:
 1. Data Input & Managment: Handels all user input validation, expense recording, category managment, and the setting of the globsl budget.
 2. Data persistance (CRUD): Manages the reading and writing of the global state (EXPENSES and BUDGET) to the travel_expenses.json file. 
+3. Reporting & Analytics: Calculates and formats the summary report, including total expense calculation, percentage breakdown, and budget variance tracking.
+
